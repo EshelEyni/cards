@@ -5,4 +5,4 @@
  You can check it out right here,
 
 
-![Main board image](src/assets/screenshots/cards-screenshot.png) 
+![Main board image](./src/assets/cards-screenshot.png) 
