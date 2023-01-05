@@ -1,11 +1,9 @@
-import { AppHeader } from './cmps/app-header.jsx';
-import { MainCmp } from './cmps/main-cmp.jsx';
+import { CardList } from './cmps/main-cmp.jsx';
 
 function RootCmp() {
   return (
     <div className="App">
-      <AppHeader />
-      <MainCmp />
+      <CardList />
     </div>
   );
 }

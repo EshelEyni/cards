@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './styles/main.scss';
 import RootCmp from './root-cmp';
 import reportWebVitals from './reportWebVitals';
 

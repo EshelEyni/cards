@@ -1,0 +1,93 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 35px;
+    padding: 1rem;
+
+    &.HOLD {
+        background-color: rgb(255, 0, 0, 0.5);
+    }
+
+    &.WIP {
+        background-color: rgb(245, 222, 179, 0.5);
+    }
+
+    &.COMPLETED {
+        background-color: rgb(0, 128, 0, 0.5);
+    }
+
+    &.OPEN {
+        background-color: rgb(0, 0, 255, 0.5);
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .status {
+            font-size: 14px;
+            color: white;
+            border-radius: 15px;
+            padding: 5px;
+        }
+
+        & .HOLD {
+            background-color: rgb(225, 31, 31);
+        }
+
+        & .WIP {
+            background-color: rgb(245, 222, 179, 1);
+        }
+
+        & .COMPLETED {
+            background-color: rgb(0, 128, 0, 1);
+        }
+
+        & .OPEN {
+            background-color: rgb(33, 33, 231);
+        }
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &>* {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        &.HOLD {
+            .footer-title {
+
+                color: rgb(190, 26, 26);
+            }
+        }
+
+        &.WIP {
+            .footer-title {
+
+                color: rgb(195, 177, 143);
+            }
+        }
+
+        &.COMPLETED {
+            .footer-title {
+
+                color: rgb(2, 81, 2);
+            }
+        }
+
+        &.OPEN {
+            .footer-title {
+
+                color: rgb(27, 27, 170);
+            }
+        }
+
+    }
+
+}
